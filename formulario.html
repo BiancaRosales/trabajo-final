@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularia</title>
+<link rel="stylesheet" href="CSS/styles3.css">
+<style>
+    label{
+        display: block;
+        float: left;
+        width: 250px;
+    }
+</style>
+</head>
+<body>
+  
+<form action="">
+    <div>
+        <label for="Nombre y Apellido">Nombre y Apellido</label>
+        <input type="text" id="Nombre y Apellido" name="Nombre y Apellido" required>
+    </div>
+    <div>
+        <label for="E-mail">E-mail</label>
+        <input type="text" id="E-mail">
+    </div>
+    <div>
+        <label for="Número telefonico">Número telefonico</label>
+        <input type="text" id="Número telefonico" name="Número telefonico" required>
+    </div>
+    <div>
+        <label for="Nombre y Apellido del">Nombre y Apellido del</label>
+        <input type="text" id="Nombre y Apellido del" name="Nombre y Apellido del" required>
+    </div>
+    <div>
+        <label for="Comentario/consulta">Comentario/consulta</label>
+        <input type="text" id="Comentario/consulta" name="Comentario/consulta" required>
+    </div>
+    <input type="submit" onclick="return enviarformulario();" value="Enviar">
+</form>
+<div id="error"></div>
+
+
+<footer>Constanza Monasterio, Bianca Rosales Moll y Wendy Weng
+    <div class="información-formulario">
+        <p>
+            Sunflowers 6877-Villa Ballester<br>
+            Tel: 57698932435
+            E-mail: recepcion@colegiosanflowers
+        </p>
+        <table border="1">
+            <tr>
+                <th>
+                    <form action="">
+                        <div>
+                            <label for="Nombre y Apellido">Nombre y Apellido</label>
+                            <input type="text" id="Nombre y Apellido">
+                        </div>
+                    </form>
+                </th>
+                <th>
+                    <form action="">
+                        <div>
+                            <label for="E-mail">E-mail</label>
+                            <input type="text" id="E-mail">
+                        </div>
+                    </form>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <form action="">
+                        <div>
+                            <label for="Nombre y Apellido del">Nombre y Apellido del</label>
+                            <input type="text" id="Nombre y Apellido del">
+                        </div>
+                    </form>
+                </td>
+                <td>
+                    <form action="">
+                        <div>
+                            <label for="Link a curriculum">Link a curriculum</label>
+                            <input type="text" id="Link a curriculum">
+                        </div>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+</footer>
+</body>
+</html>
+
